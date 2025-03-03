@@ -14,8 +14,3 @@ def twosum(nums, target):
     return []
 
 print(twosum(nums, target))
-# test case develop
-# test case develop
-# test case develop
-# test case develop
-# test case develop

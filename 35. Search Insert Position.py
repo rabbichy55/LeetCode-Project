@@ -1,4 +1,4 @@
-# binary search o(nog n)
+# binary search o(log n)
 class Solution:
     def searchInsert(self, nums, target):
         left, right = 0, len(nums)-1  # right = len(nums)-1 because list index count from 0

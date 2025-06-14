@@ -13,7 +13,7 @@ class Solution:
 
         while list1 and list2:
             if list1.val < list2.val:
-                point.next = list1
+                point.next = list1g
                 list1 = list1.next
             else:
                 point.next = list2
@@ -28,3 +28,8 @@ class Solution:
         return dummy.next
 ss = Solution()
 print(ss.mergeTwoLists(list1, list2))
+
+#Need change
+
+
+
